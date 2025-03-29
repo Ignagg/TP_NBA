@@ -1,0 +1,37 @@
+:root {
+    --bs-background: #ffffff;
+    --bs-foreground: #1a1a1a;
+    --bs-card: #ffffff;
+    --bs-card-foreground: #1a1a1a;
+    --bs-popover: #ffffff;
+    --bs-popover-foreground: #1a1a1a;
+    --bs-primary: #1a1a1a;
+    --bs-primary-foreground: #fafafa;
+    --bs-secondary: #f5f5f5;
+    --bs-secondary-foreground: #1a1a1a;
+    --bs-muted: #f5f5f5;
+    --bs-muted-foreground: #737373;
+    --bs-accent: #f5f5f5;
+    --bs-accent-foreground: #1a1a1a;
+    --bs-destructive: #ff4d4f;
+    --bs-destructive-foreground: #fafafa;
+    --bs-border: #e6e6e6;
+    --bs-input: #e6e6e6;
+    --bs-ring: #1a1a1a;
+    --bs-radius: 0.5rem;
+  }
+  
+  * {
+    border-color: var(--bs-border) !important;
+  }
+  
+  body {
+    background-color: var(--bs-background) !important;
+    color: var(--bs-foreground) !important;
+    font-family: 'YourFontName', sans-serif !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'YourHeadingFontName', sans-serif !important;
+  }
+  
